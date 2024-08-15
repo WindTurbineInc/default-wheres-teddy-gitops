@@ -1,0 +1,15 @@
+app:
+  name: default-wheres-teddy-app
+  namespace: default
+  cluster: .apps.cluster-cqgbn.sandbox2298.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/default-wheres-teddy
+  org: WindTurbineInc
+  name: default-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: default/wheres-teddy-app
+  tag: latest
